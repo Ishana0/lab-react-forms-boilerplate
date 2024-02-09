@@ -1,0 +1,68 @@
+.form-container {
+    width: 500px;
+    font-weight: 100;
+    padding: 35px;
+    background-color: gray;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.form-container div {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.form-container div>input,
+.form-container input {
+    width: 100%;
+    height: 75%;
+    padding: 5px;
+    font-size: larger;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+
+.form-container div>input:hover {
+    transition: background-color 0.5s ease;
+    border: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.form-container .regBtn {
+    background-color: rgb(2, 150, 2);
+    border: 1px solid lightgray;
+    padding: 15px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.regBtn:hover {
+    cursor: pointer;
+}
+
+.err {
+    font-size: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.success-msg {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.form-container .succss-msg-container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container .succss-msg-container span {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
